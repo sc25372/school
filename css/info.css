@@ -1,0 +1,11 @@
+.info{
+    height: 500px;
+}
+.info_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.info_item_1{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}

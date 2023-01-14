@@ -1,0 +1,25 @@
+.start{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-image: url("../img/1.jpg");
+}
+.start::after{
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.500);
+}
+.start_text{
+    color: white;
+    z-index: 25;
+}
+.start_text h1{
+    font-size: 100px;
+}
+.start_text p{
+    font-size: 77px;
+}
