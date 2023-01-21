@@ -1,5 +1,5 @@
 .info{
-    height: 500px;
+    padding: 100px;
 }
 .info_item{
     display: grid;
@@ -8,4 +8,11 @@
 .info_item_1{
     display: grid;
     grid-template-rows: 2fr 1fr;
+    place-items: center;
+}
+.img img{
+    height: 150px;
+}
+.text p{
+    font-size: 35px;
 }

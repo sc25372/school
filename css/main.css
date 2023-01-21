@@ -1,12 +1,23 @@
 @import url("reset.css");
 @import url("start.css");
 @import url("info.css");
+@import url("events.css");
+@import url("description.css");
 
 
 
 
 
 .container{
+    display: grid;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: green; */
+    z-index: 50;
+}
+.container_description{
     display: grid;
     height: 100%;
     width: 1280px;
