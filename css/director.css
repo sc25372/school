@@ -1,0 +1,24 @@
+.director{
+    /* height: 400px; */
+    width: 100%;
+    background-color: red;
+    padding: 50px;
+}
+.director_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.director_item{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 50px;
+}
+.director_item_one{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-color: blue;
+    background-size: cover;
+    overflow: hidden;
+}

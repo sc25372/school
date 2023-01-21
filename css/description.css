@@ -1,8 +1,22 @@
 .description{
-    height: 600px;
+    height: 420px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 .description_text{
-    
+    padding: 15px;
+}
+.description_text h2{
+    font-size: 35px;
+}
+.description_text p{
+    font-size: 19px;
+}
+.description_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+.description_img img{
+    height: 420px;
 }
