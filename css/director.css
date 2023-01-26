@@ -4,6 +4,9 @@
     background-color: red;
     padding: 50px;
 }
+.director_text p{
+    font-size: 25px;
+}
 .director_items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -12,7 +15,7 @@
 .director_item{
     display: grid;
     grid-template-rows: 2fr 1fr;
-    gap: 50px;
+    place-items: center;
 }
 .director_item_one{
     height: 280px;
