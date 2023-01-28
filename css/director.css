@@ -1,7 +1,7 @@
 .director{
     /* height: 400px; */
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     padding: 50px;
 }
 .director_text p{
@@ -21,7 +21,7 @@
     height: 280px;
     width: 280px;
     border-radius: 50%;
-    background-color: blue;
+    /* background-color: blue; */
     background-size: cover;
     overflow: hidden;
 }

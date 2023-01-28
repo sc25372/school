@@ -1,10 +1,10 @@
 .description{
-    height: 420px;
+    /* height: 620px; */
     width: 100%;
     /* background-color: red; */
 }
 .description_text{
-    padding: 15px;
+    /* padding: 15px; */
 }
 .description_text h2{
     font-size: 35px;
@@ -18,5 +18,5 @@
     gap: 35px;
 }
 .description_img img{
-    height: 420px;
+    height: 390px;
 }
