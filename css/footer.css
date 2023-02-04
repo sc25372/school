@@ -1,0 +1,32 @@
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
+.container_footer{
+    display: grid;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+}
+.footer-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.footer-item{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.footer-item h4{
+    font-size: 45px;
+    color: white;
+}
+.footer-item p{
+    font-size: 35px;
+    color: white;
+}
+.footer-item img{
+    height: 250px;
+}

@@ -14,8 +14,9 @@
 }
 .description_items{
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr;
-    gap: 35px;
+    gap: 50px;
 }
 .description_img img{
     height: 390px;
