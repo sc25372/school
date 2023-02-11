@@ -1,15 +1,16 @@
 .block{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 .container_block{
     display: grid;
-    gap: 5px;
+    gap: 20px;
+    padding: 20px;
     height: 100%;
     width: 1280px;
     margin: 0 auto;
-    background-color: green;
+    /* background-color: green; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
@@ -21,27 +22,37 @@
 
 
 .one{
+    display: grid;
     background-color: #1300a3;
-    /* background-image: url("../img/23.jpg");
-    background-position-x: center;
-    background-position-y: center; */
-    overflow: hidden;
     grid-area: one;
+    overflow: hidden;
 }
 .two{
-    background-color: #00ffb7;
+    /* background-color: #00ffb7; */
     grid-area: two;
+    overflow: hidden;
 
 }
 .three{
-    background-color: #00ff37;
+    /* background-color: #00ff37; */
     grid-area: three;
+    overflow: hidden;
 }
 .four{
-    background-color: #5d00ff;
+    /* background-color: #5d00ff; */
     grid-area: four;
+    overflow: hidden;
 }
 .five{
-    background-color: #d9ff00;
+    /* background-color: #d9ff00; */
     grid-area: five;
+    overflow: hidden;
+}
+.area-text{
+    height: 100px;
+    /* background-color: #6f8d9d; */
+}
+.area-img{
+    height: 300px;
+    /* background-color: #83ff8d; */
 }
