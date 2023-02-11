@@ -1,48 +1,47 @@
 .block{
-    /* height: 600px; */
+    height: 100vh;
     width: 100%;
-    /* background-color: red; */
+    background-color: red;
 }
 .container_block{
+    display: grid;
+    gap: 5px;
     height: 100%;
     width: 1280px;
     margin: 0 auto;
-    /* background-color: green; */
+    background-color: green;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "one one two three"
+        "one one four five"
+    ;
 }
-.text{
-    text-transform: uppercase;
-    font-size: 13px;
+
+
+
+.one{
+    background-color: #1300a3;
+    /* background-image: url("../img/23.jpg");
+    background-position-x: center;
+    background-position-y: center; */
+    overflow: hidden;
+    grid-area: one;
 }
-.block_text{
-    height: 50px;
-    font-size: 35px;
-    text-align: center;
+.two{
+    background-color: #00ffb7;
+    grid-area: two;
+
 }
-.img{
-    padding-bottom: 5px;
+.three{
+    background-color: #00ff37;
+    grid-area: three;
 }
-.block_item_img img{
-    /* height: 900px; */
+.four{
+    background-color: #5d00ff;
+    grid-area: four;
 }
-.block_items{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 50px;
-    gap: 50px;
-}
-.block_item_one{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px;
-}
-.block_item_1{
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-    /* background-color: red; */
-    /* padding: 15px; */
-}
-.block_item_1 img{
-    height: 250px;
-    width: 100%;
+.five{
+    background-color: #d9ff00;
+    grid-area: five;
 }
