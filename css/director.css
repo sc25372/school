@@ -24,4 +24,27 @@
     /* background-color: blue; */
     background-size: cover;
     overflow: hidden;
+    background-color: grey;
+    background-image: url("../img/111.png");
+    background-position: center;
+}
+.director_item_two{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    background-size: cover;
+    overflow: hidden;
+    background-color: grey;
+}
+.director_item_three{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    background-image: url("../img/about_photo.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-color: grey;
 }
