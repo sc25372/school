@@ -5,7 +5,7 @@
 }
 .container_block{
     display: grid;
-    gap: 20px;
+    gap: 25px;
     padding: 20px;
     height: 100%;
     width: 1280px;
@@ -18,7 +18,12 @@
         "one one four five"
     ;
 }
-
+.block_text{
+    height: 50px;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 
 .one{
@@ -31,7 +36,7 @@
     /* background-color: #00ffb7; */
     grid-area: two;
     overflow: hidden;
-
+    
 }
 .three{
     /* background-color: #00ff37; */
@@ -54,5 +59,6 @@
 }
 .area-img{
     height: 300px;
+    margin-bottom: 10px;
     /* background-color: #83ff8d; */
 }

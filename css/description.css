@@ -3,14 +3,14 @@
     width: 100%;
     /* background-color: red; */
 }
-.description_text{
-    /* padding: 15px; */
-}
-.description_text h2{
+.description_item_text{
+    height: 50px;
     font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 .description_text p{
-    font-size: 19px;
+    font-size: 22px;
 }
 .description_items{
     display: grid;
