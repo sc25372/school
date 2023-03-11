@@ -10,6 +10,10 @@
     grid-template-rows: 2fr 1fr;
     place-items: center;
 }
+.info_item_1 a{
+    color: black;
+    text-decoration: none;
+}
 .img img{
     height: 100px;
 }

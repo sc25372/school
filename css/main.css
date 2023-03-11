@@ -8,6 +8,7 @@
 @import url("map.css");
 @import url("nav.css");
 @import url("footer.css");
+@import url("start_kontakt.css");
 
 
 
@@ -30,4 +31,13 @@
     /* text-align: center; */
     /* background-color: green; */
     z-index: 50;
+}
+.start_container{
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: green; */
 }

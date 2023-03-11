@@ -1,0 +1,26 @@
+.start_kontakt{
+    height: 1500px;
+    /* background-color: red; */
+}
+.start_kontakt_text{
+    height: 450px;
+    text-transform: uppercase;
+    padding: 60px;
+}
+.start_kontakt_text h2{
+    font-size: 35px;
+}
+.start_kontakt_text p{
+    font-size: 20px;
+}
+.start_kontakt_foto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: blue; */
+    gap: 25px;
+}
+.start_kontakt_foto-1{
+    /* background-color: darkblue; */
+    background-repeat: no-repeat;
+}
