@@ -1,26 +1,30 @@
-.start_kontakt{
+.start_menu{
     height: 1500px;
     /* background-color: red; */
 }
-.start_kontakt_text{
+.start_menu_text{
     height: 450px;
     text-transform: uppercase;
     padding: 60px;
 }
-.start_kontakt_text h2{
+.start_menu_text h2{
     font-size: 35px;
 }
-.start_kontakt_text p{
+.start_menu_text p{
     font-size: 20px;
 }
-.start_kontakt_foto{
+.start_menu_foto{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     /* background-color: blue; */
     gap: 25px;
+    place-items: center;
 }
-.start_kontakt_foto-1{
+.start_menu_foto-1{
     /* background-color: darkblue; */
     background-repeat: no-repeat;
+}
+.start_menu_foto-1 img{
+    height: 300px;
 }

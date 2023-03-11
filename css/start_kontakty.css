@@ -1,0 +1,24 @@
+.start_kontakt{
+    height: 100vh;
+    background-color: red;
+}
+.start_kontakt_text{
+    display: grid;
+    place-items: center;
+    height: 250px;
+    text-transform: uppercase;
+    padding: 60px;
+}
+.start_kontakt_text h2{
+    font-size: 35px;
+}
+.start_kontakt_items{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+    background-color: darkblue;
+}
+.start_kontakt_item{
+    background-color: blue;
+    border-radius: 30px;
+}

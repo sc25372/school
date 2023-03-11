@@ -8,7 +8,8 @@
 @import url("map.css");
 @import url("nav.css");
 @import url("footer.css");
-@import url("start_kontakt.css");
+@import url("start_menu.css");
+@import url("start_kontakty.css");
 
 
 
@@ -39,5 +40,5 @@
     width: 1280px;
     margin: 0 auto;
     text-align: center;
-    /* background-color: green; */
+    background-color: green;
 }
