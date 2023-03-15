@@ -10,6 +10,7 @@
 @import url("footer.css");
 @import url("start_menu.css");
 @import url("start_kontakty.css");
+@import url("start_table.css");
 
 
 
@@ -40,5 +41,23 @@
     width: 1280px;
     margin: 0 auto;
     text-align: center;
+    background-color: green;
+}
+.start_kontakt_container{
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* background-color: green; */
+}
+.start_table_container{
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    /* text-align: center; */
     background-color: green;
 }
