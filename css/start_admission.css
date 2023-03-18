@@ -1,0 +1,43 @@
+.start_admission{
+    /* height: 100vh; */
+    /* background-color: red; */
+}
+.start_admission_text{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.admission_items{
+    display: grid;
+    height: 350px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.admission_items p{
+    font-size: 18px;
+}
+.admission_items{
+    display: grid;
+    height: 260px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.admission_item_1{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgb(151, 151, 151);
+    text-align: center;
+    padding: 10px;
+}
+.admission_item_2{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    border-radius: 20px;
+    background-color: rgb(151, 151, 151);
+}
+.admission_item_2 h2{
+    padding: 10px;
+    text-align: center;
+}

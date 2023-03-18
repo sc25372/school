@@ -11,6 +11,7 @@
 @import url("start_menu.css");
 @import url("start_kontakty.css");
 @import url("start_table.css");
+@import url("start_admission.css");
 
 
 
@@ -41,7 +42,16 @@
     width: 1280px;
     margin: 0 auto;
     text-align: center;
-    background-color: green;
+    /* background-color: green; */
+}
+.start_container_admission{
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    gap: 100px;
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+    /* background-color: green; */
 }
 .start_kontakt_container{
     display: grid;
@@ -59,5 +69,5 @@
     width: 1280px;
     margin: 0 auto;
     /* text-align: center; */
-    background-color: green;
+    /* background-color: green; */
 }

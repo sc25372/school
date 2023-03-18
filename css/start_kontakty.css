@@ -22,7 +22,7 @@
 .start_kontakt_item_one{
     display: grid;
     grid-template-rows: 0.2fr 1fr 1fr;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(151, 151, 151);
     border-radius: 30px;
     padding-left: 10px;
 }
@@ -33,7 +33,7 @@
 .start_kontakt_item_two{
     display: grid;
     grid-template-rows: 0.2fr 1fr 1fr;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(151, 151, 151);
     border-radius: 30px;
     overflow: hidden;
 }
@@ -48,9 +48,8 @@
     grid-template-columns: 1fr 1fr;
     /* background-color: darkcyan; */
 }
-.kontakt_item_2 p{
-    color: rgb(160, 160, 160);
+color: rgb(60, 60, 60);
 }
 .kontakt_item_1 p{
-    color: rgb(160, 160, 160);
+    color: rgb(60, 60, 60);
 }
