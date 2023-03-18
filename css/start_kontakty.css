@@ -1,6 +1,8 @@
 .start_kontakt{
     height: 100vh;
     /* background-color: red; */
+    background: linear-gradient(90deg, #C5DB9D 0%, #93C5DD 42.19%, #93C5DD 49.88%, #B9BBED 100%);
+
 }
 .start_kontakt_text{
     display: grid;
@@ -22,9 +24,9 @@
 .start_kontakt_item_one{
     display: grid;
     grid-template-rows: 0.2fr 1fr 1fr;
-    background-color: rgb(151, 151, 151);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .kontakt_item_text{
     display: grid;
@@ -33,14 +35,21 @@
 .start_kontakt_item_two{
     display: grid;
     grid-template-rows: 0.2fr 1fr 1fr;
-    background-color: rgb(151, 151, 151);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 30px;
     overflow: hidden;
+    padding-left: 20px;
+
 }
 .start_kontakt_items p{
     font-size: 25px;
 }
 .kontakt_item_1{
+    font-size: 14px;
+    /* background-color: darkcyan; */
+}
+.kontakt_item_2{
+    font-size: 14px;
     /* background-color: darkcyan; */
 }
 .kontakt_item_two{
@@ -50,5 +59,8 @@
     color: rgb(60, 60, 60);
 }
 .kontakt_item_1 p{
-    color: rgb(60, 60, 60);
+    color: rgb(0, 204, 255);
+}
+.kontakt_item_2 p{
+    color: rgb(0, 204, 255);
 }

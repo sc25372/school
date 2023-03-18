@@ -1,6 +1,7 @@
 .start_table{
     /* height: 1850px; */
     /* background-color: red; */
+    background: linear-gradient(90deg, #C5DB9D 0%, #93C5DD 42.19%, #93C5DD 49.88%, #B9BBED 100%);
 }
 .start_table_text{
     text-align: center;
@@ -61,4 +62,10 @@
 }
 .table_text_2_a{
     font-size: 20px;
+}
+table{
+    width: 100%;
+}
+table caption{
+    font-size: 28px;
 }
