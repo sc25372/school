@@ -47,8 +47,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* background-color: darkcyan; */
-}
-color: rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
 }
 .kontakt_item_1 p{
     color: rgb(60, 60, 60);
