@@ -1,6 +1,7 @@
 .start_admission{
     /* height: 100vh; */
     /* background-color: red; */
+    margin-bottom: 50px;
 }
 .start_admission_text{
     text-align: center;
@@ -40,4 +41,13 @@
 .admission_item_2 h2{
     padding: 10px;
     text-align: center;
+}
+.admission_document{
+    height: 800px;
+    background-color: red;
+}
+.admission_text_document{
+    text-align: center;
+    text-transform: uppercase;
+    /* padding-top: 60px; */
 }

@@ -51,7 +51,7 @@
     height: 100%;
     width: 1280px;
     margin: 0 auto;
-    /* background-color: green; */
+    background-color: green;
 }
 .start_kontakt_container{
     display: grid;

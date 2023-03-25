@@ -54,3 +54,9 @@ nav{
 .nav_item_text p{
     font-size: 20px;
 }
+.nav_text a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
