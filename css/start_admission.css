@@ -51,3 +51,39 @@
     text-transform: uppercase;
     /* padding-top: 60px; */
 }
+.admission_document_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.document_item{
+    display: grid;
+    background-color: darkblue;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.document_item_text h2{
+    text-align: center;
+    background-color: darkcyan;
+    font-size: 25px;
+}
+.document_item1{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    background-color: darkcyan;
+}
+.document_item_img{
+    display: grid;
+    place-items: center;
+    background-position: center;
+}
+.document_item_img img{
+    height: 120px;
+}
+.document_item_text2{
+    /* margin: 15px; */
+    place-content: center;
+}
+.document_item_text2 p{
+    font-size: 25px;
+}
