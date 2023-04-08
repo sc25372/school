@@ -1,6 +1,8 @@
 .start_menu{
     height: 1500px;
     /* background-color: red; */
+    background: linear-gradient(90deg, #C5DB9D 0%, #93C5DD 42.19%, #93C5DD 49.88%, #B9BBED 100%);
+
 }
 .start_menu_text{
     height: 450px;

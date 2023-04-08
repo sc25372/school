@@ -4,11 +4,16 @@
 .info_item{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
 }
 .info_item_1{
     display: grid;
     grid-template-rows: 2fr 1fr;
     place-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.info_item_1:hover{
+    cursor: pointer;
 }
 .info_item_1 a{
     color: black;
