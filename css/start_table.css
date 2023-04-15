@@ -45,7 +45,7 @@
 }
 .table_text_1_a{
     font-size: 20px;
-    text-align: center;
+    text-align: center;  
 }
 .table_text_1{
     text-align: center;
@@ -54,7 +54,8 @@
     font-size: 15px;
 }
 .table_text_2b{
-    text-align: center;
+    margin: 15px;
+    /* text-align: center; */
     font-size: 15px;
 }
 .table_text_2c{
@@ -62,6 +63,7 @@
 }
 .table_text_2_a{
     font-size: 20px;
+    margin: 10px;
 }
 table{
     width: 100%;

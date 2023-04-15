@@ -6,7 +6,7 @@
 .description_item_text{
     height: 50px;
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     text-align: center;
 }
 .description_text p{
@@ -14,10 +14,11 @@
 }
 .description_items{
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 25px;
 }
 .description_img img{
+    float: right;
     height: 390px;
 }

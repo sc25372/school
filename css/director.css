@@ -15,9 +15,16 @@
 .director_item{
     display: grid;
     grid-template-rows: 2fr 1fr;
+    /* place-items: center; */
+    gap: 15px;
+}
+.director_item_1{
+    display: grid;
     place-items: center;
 }
 .director_item_one{
+    display: grid;
+    /* place-items: center; */
     height: 280px;
     width: 280px;
     border-radius: 50%;
@@ -27,6 +34,10 @@
     background-color: grey;
     background-image: url("../img/111.png");
     background-position: center;
+    transition: all 0.5s ease-in-out;
+}
+.director_item_one:hover{
+    box-shadow: 5px 5px 4px black;
 }
 .director_item_two{
     height: 280px;
@@ -36,6 +47,10 @@
     background-size: cover;
     overflow: hidden;
     background-color: grey;
+    transition: all 0.5s ease-in-out;
+}
+.director_item_two:hover{
+    box-shadow: 5px 5px 4px black;
 }
 .director_item_three{
     height: 280px;
@@ -47,4 +62,9 @@
     background-size: cover;
     overflow: hidden;
     background-color: grey;
+    transition: all 0.5s ease-in-out;
+}
+.director_item_three:hover{
+    box-shadow: 5px 5px 4px black;
+
 }
